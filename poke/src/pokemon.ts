@@ -1,4 +1,4 @@
-export default [
+export const pokemon = [
   {
     id: 1,
     name: "Bulbasaur",
