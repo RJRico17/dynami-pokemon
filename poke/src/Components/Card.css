@@ -1,0 +1,50 @@
+.card {
+    margin: 0;
+    background-color: rgb(219, 219, 23);
+    margin-bottom: 3rem;
+    transition: transform .2s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.stats {
+    margin: auto;
+    width: 20%;
+}
+.name {
+    text-align: left;
+    width: 60%;
+}
+.hp {
+    border-radius: 15px;
+    border: 3px solid white;
+    background-color: rgb(94, 200, 94);
+    margin: auto;
+    width: 20%;
+}
+#atk {
+    margin: auto;
+    background-color: rgb(222, 86, 86);
+    width: 70%;
+}
+#def {
+    margin: auto;
+    background-color: rgb(235, 179, 74);
+    width: 70%;
+}
+.top {
+    padding: 0 0.5rem 0 0.5rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.background-blue {
+    background-color: rgb(68, 68, 189);
+}
+.abilities {
+    text-align: left;
+    padding: 1rem;
+    color: black;
+    background-color: whitesmoke;
+}

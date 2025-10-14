@@ -1,4 +1,4 @@
-import Card from './Card.jsx';
+import Card from './Components/Card.jsx';
 import './App.css'
 
 import { pokemon } from './pokemon.ts';
